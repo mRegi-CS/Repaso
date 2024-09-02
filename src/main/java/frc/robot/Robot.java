@@ -47,7 +47,7 @@ public class Robot extends TimedRobot {
 
    /*++++++++++++++++++ CONVEYER +++++++++++++++++++++ */
     //Declarar motor
-    CANSparkMax motorConveyer = new CANSparkMax(device:5, MotorType.kBrushless);
+    CANSparkMax motorConveyer = new CANSparkMax(5, MotorType.kBrushless);
 
 
     /*+++++++++++++++++ INTAKE ++++++++++++++++++ */
