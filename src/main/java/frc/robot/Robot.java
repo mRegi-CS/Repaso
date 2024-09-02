@@ -97,7 +97,7 @@ public class Robot extends TimedRobot {
 
     //Invierte un motor y el otro no para que vayan en los sentidos correctos
     motorShooterLeft.setInverted(true);
-    motorShooterRight.set(!motorShooterRight.getInverted());
+    motorShooterRight.setInverted(!motorShooterRight.getInverted());
 
     motorShooterLeft.follow(motorShooterRight);
 
